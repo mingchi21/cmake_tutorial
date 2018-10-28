@@ -15,7 +15,9 @@ static void _print(int* arr, int len) {
 
 int main(int, char**) {    
     int len = sizeof(number)/sizeof(int);
+    char c;
 
-    bubbleSort(number, len, descending);
+    bubbleSort(number, len, ascending);
     _print(number, len);
+    c = getchar();
 }
